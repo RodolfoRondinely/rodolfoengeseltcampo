@@ -1,0 +1,64 @@
+@media (max-width:980px){
+  nav .navest{
+      left: -120px;
+      margin-top: 30px;
+  }
+  
+  .backgroundColor{
+      background-color:#ccc;
+      display: flex;
+      flex-direction: row;
+      right:0px ;
+      height: 40px;
+      width: 30vw;
+  }
+  .backgroundColor input{
+      margin: 5px;
+  }
+  .estruturas{
+      display: flex;
+
+      flex-direction: column;
+  }
+  .estruType{
+    display: flex;
+
+    flex-direction: column;
+  }
+}
+@media (max-width:800px){
+    header{
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 30px;
+
+    }
+    .navest{
+        display: flex;
+        justify-content: space-between;
+        
+        width: 90vw;
+        margin-left:110px;
+        margin-top: 20px;
+        ;
+
+    }
+    
+    .backgroundColor{
+        flex-direction: row;
+        margin:auto;
+    }
+    h1
+    {
+        width: 100vw;
+        font-size: 2.8rem;
+        margin:30px 0px 30px 80px ;
+    }
+    .nav,.navest{
+        background-color: blueviolet;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
