@@ -62,4 +62,29 @@
         overflow-x: hidden;
     }
 }
+@media (max-width:768px){
+    
+    .estru{
+        background-color: hotpink;
+        margin: 30px 15px 0 10px;
+        width: 60px;
+        font-size: .8rem;
+        padding: 0px;
+    }
+    .navest{
+        display: flex;
+        width: 80vw;
+    }
+    h1{
+        font-size: 1.5rem;
+        width: 75vw;
+        text-align: center;
+    }
+    .backgroundColor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 250px;
+    }
+}
 
